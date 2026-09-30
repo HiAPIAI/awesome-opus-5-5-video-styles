@@ -1,0 +1,378 @@
+<!doctype html><meta charset=utf-8><link rel=stylesheet href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.min.css"><body class=markdown-body style="max-width:980px;margin:30px auto;padding:0 16px">
+<h1>Awesome Opus 5.5 Video Styles</h1>
+<p><strong>Find videos made with Claude Opus 5.5 by how they look: 12 visual styles, 65 hand-picked cases, each with the original post and the prompt its creator shared.</strong></p>
+<p>Languages: English | <a href="README.zh-CN.md">简体中文</a></p>
+<p>Most collections sort by use (intros, explainers, games). This one sorts by <strong>what the picture looks like</strong>: pick a style, see how others prompted it, then copy that style's recipe onto your own story.</p>
+<blockquote>
+<p>One finding: the same viral prompt, "make a dynamic 15-second motion graphics video…", came out as kinetic type, 3D, pixel art or generative patterns depending on the run. To get a style reliably you have to name it in the prompt, which is what the recipes are for.</p>
+</blockquote>
+<h2>Styles</h2>
+<ul>
+<li><a href="#handdrawn">Hand-drawn, sketch &amp; comic</a> · 4</li>
+<li><a href="#collage">Collage, cutout &amp; sand</a> · 5</li>
+<li><a href="#pixel">Pixel art</a> · 6</li>
+<li><a href="#cartoon">Flat cartoon</a> · 5</li>
+<li><a href="#cinematic3d">Cinematic 3D</a> · 6</li>
+<li><a href="#lowpoly">Low-poly &amp; voxel</a> · 6</li>
+<li><a href="#generative">Generative &amp; neon</a> · 5</li>
+<li><a href="#typography">Kinetic typography</a> · 6</li>
+<li><a href="#productui">Product UI promo</a> · 6</li>
+<li><a href="#retro">Retro, terminal &amp; old film</a> · 5</li>
+<li><a href="#explainer">Explainers &amp; data viz</a> · 6</li>
+<li><a href="#photoreal">Photoreal &amp; live action</a> · 5</li>
+</ul>
+<h2>How to use</h2>
+<ol>
+<li>Find a style below. Click a still to watch the original, click "Prompt" to read the creator's own words.</li>
+<li>Copy that style's recipe after your own story and give it to an agent running Opus 5.5 (Claude Code or similar). It writes code that draws every frame, then renders an MP4 with a headless browser and ffmpeg.</li>
+<li>No Anthropic account? Run Opus 5.5 in Claude Code with one <a href="https://www.hiapi.ai/en" rel="nofollow">HiAPI</a> key:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-k">export</span> ANTHROPIC_BASE_URL=https://api.hiapi.ai
+<span class="pl-k">export</span> ANTHROPIC_AUTH_TOKEN=<span class="pl-k">&lt;</span>your HiAPI key<span class="pl-k">&gt;</span>
+claude --model claude-opus-5-5</pre></div>
+<p>Want an original song? HiAPI's music models can sing your lyrics, and the <a href="https://github.com/HiAPIAI/hiapi-hand-painted-animation-skill">hand-painted animation skill</a> packages the whole path: lyrics, song, beat timing and frame-by-frame painting.</p>
+<p><a id="user-content-handdrawn"></a></p>
+<h2>Hand-drawn, sketch &amp; comic</h2>
+<p>Pencil lines, whiteboard sketches, halftone comics. The most human-looking of all.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/sab8a/status/2103144778481475686" rel="nofollow"><img src="assets/stills/2103144778481475686.jpg" width="260" alt="Hand-drawn, sketch &amp; comic by @sab8a" style="max-width: 100%;"></a><br><a href="https://x.com/sab8a/status/2103144778481475686" rel="nofollow">@sab8a</a> · ❤ 289<br><a href="prompts/2103144778481475686.md">Prompt</a></td>
+<td><a href="https://x.com/itisRazak/status/2103517930424332386" rel="nofollow"><img src="assets/stills/2103517930424332386.jpg" width="260" alt="Hand-drawn, sketch &amp; comic by @itisRazak" style="max-width: 100%;"></a><br><a href="https://x.com/itisRazak/status/2103517930424332386" rel="nofollow">@itisRazak</a> · ❤ 155<br><a href="prompts/2103517930424332386.md">Prompt</a></td>
+<td><a href="https://x.com/ParanoidAmerica/status/2103570879619686717" rel="nofollow"><img src="assets/stills/2103570879619686717.jpg" width="260" alt="Hand-drawn, sketch &amp; comic by @ParanoidAmerica" style="max-width: 100%;"></a><br><a href="https://x.com/ParanoidAmerica/status/2103570879619686717" rel="nofollow">@ParanoidAmerica</a> · ❤ 62<br><a href="prompts/2103570879619686717.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/sudo_kiran/status/2103761658745335993" rel="nofollow"><img src="assets/stills/2103761658745335993.jpg" width="260" alt="Hand-drawn, sketch &amp; comic by @sudo_kiran" style="max-width: 100%;"></a><br><a href="https://x.com/sudo_kiran/status/2103761658745335993" rel="nofollow">@sudo_kiran</a> · ❤ 13<br><a href="prompts/2103761658745335993.md">Prompt</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: hand-drawn. Every shape is drawn as wobbly pencil or ink lines on off-white paper, redrawn slightly every few frames (line boil). Limited palette: ink black plus one accent colour. No gradients, no 3D, no glossy UI. Hand-lettered labels only where needed.
+</code></pre>
+</details>
+<p><a id="user-content-collage"></a></p>
+<h2>Collage, cutout &amp; sand</h2>
+<p>Magazine collage, paper relief, sand animation, silhouettes: handmade material looks.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/DavidShulmanFL/status/2103336310089842921" rel="nofollow"><img src="assets/stills/2103336310089842921.jpg" width="260" alt="Collage, cutout &amp; sand by @DavidShulmanFL" style="max-width: 100%;"></a><br><a href="https://x.com/DavidShulmanFL/status/2103336310089842921" rel="nofollow">@DavidShulmanFL</a> · ❤ 3<br><a href="prompts/2103336310089842921.md">Prompt</a></td>
+<td><a href="https://x.com/TomAndrieu96707/status/2103411144899875264" rel="nofollow"><img src="assets/stills/2103411144899875264.jpg" width="260" alt="Collage, cutout &amp; sand by @TomAndrieu96707" style="max-width: 100%;"></a><br><a href="https://x.com/TomAndrieu96707/status/2103411144899875264" rel="nofollow">@TomAndrieu96707</a> · ❤ 1<br><a href="prompts/2103411144899875264.md">Prompt</a></td>
+<td><a href="https://x.com/jrayon/status/2102861376184054015" rel="nofollow"><img src="assets/stills/2102861376184054015.jpg" width="260" alt="Collage, cutout &amp; sand by @jrayon" style="max-width: 100%;"></a><br><a href="https://x.com/jrayon/status/2102861376184054015" rel="nofollow">@jrayon</a> · ❤ 1<br><a href="prompts/2102861376184054015.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/Michaelzsguo/status/2102592355165782312" rel="nofollow"><img src="assets/stills/2102592355165782312.jpg" width="260" alt="Collage, cutout &amp; sand by @Michaelzsguo" style="max-width: 100%;"></a><br><a href="https://x.com/Michaelzsguo/status/2102592355165782312" rel="nofollow">@Michaelzsguo</a> · ❤ 344<br><a href="prompts/2102592355165782312.md">Prompt</a></td>
+<td><a href="https://x.com/doubleunplussed/status/2103697580421181894" rel="nofollow"><img src="assets/stills/2103697580421181894.jpg" width="260" alt="Collage, cutout &amp; sand by @doubleunplussed" style="max-width: 100%;"></a><br><a href="https://x.com/doubleunplussed/status/2103697580421181894" rel="nofollow">@doubleunplussed</a> · ❤ 151<br><a href="prompts/2103697580421181894.md">Prompt</a></td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: handmade collage. Build every frame from flat cut-out pieces (paper, photo scraps, card) with torn edges, soft drop shadows and visible paper texture; pieces move in stop-motion steps on twos (12 fps). Warm, slightly faded colours.
+</code></pre>
+</details>
+<p><a id="user-content-pixel"></a></p>
+<h2>Pixel art</h2>
+<p>8-bit sprites and retro game screens. One of the most shared looks.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/majidmanzarpour/status/2102476258948927543" rel="nofollow"><img src="assets/stills/2102476258948927543.jpg" width="260" alt="Pixel art by @majidmanzarpour" style="max-width: 100%;"></a><br><a href="https://x.com/majidmanzarpour/status/2102476258948927543" rel="nofollow">@majidmanzarpour</a> · ❤ 2,547<br><a href="prompts/2102476258948927543.md">Prompt</a></td>
+<td><a href="https://x.com/zacxbt/status/2103808699466944604" rel="nofollow"><img src="assets/stills/2103808699466944604.jpg" width="260" alt="Pixel art by @zacxbt" style="max-width: 100%;"></a><br><a href="https://x.com/zacxbt/status/2103808699466944604" rel="nofollow">@zacxbt</a> · ❤ 83<br><a href="prompts/2103808699466944604.md">Prompt</a></td>
+<td><a href="https://x.com/hoyoyoda/status/2103400046922543147" rel="nofollow"><img src="assets/stills/2103400046922543147.jpg" width="260" alt="Pixel art by @hoyoyoda" style="max-width: 100%;"></a><br><a href="https://x.com/hoyoyoda/status/2103400046922543147" rel="nofollow">@hoyoyoda</a> · ❤ 7<br><a href="prompts/2103400046922543147.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/0xEvinho/status/2103212966703436195" rel="nofollow"><img src="assets/stills/2103212966703436195.jpg" width="260" alt="Pixel art by @0xEvinho" style="max-width: 100%;"></a><br><a href="https://x.com/0xEvinho/status/2103212966703436195" rel="nofollow">@0xEvinho</a> · ❤ 6<br><a href="prompts/2103212966703436195.md">Prompt</a></td>
+<td><a href="https://x.com/zeezomb/status/2102906701552726206" rel="nofollow"><img src="assets/stills/2102906701552726206.jpg" width="260" alt="Pixel art by @zeezomb" style="max-width: 100%;"></a><br><a href="https://x.com/zeezomb/status/2102906701552726206" rel="nofollow">@zeezomb</a><br><a href="prompts/2102906701552726206.md">Prompt</a></td>
+<td><a href="https://x.com/rehan_shei/status/2103755997533839416" rel="nofollow"><img src="assets/stills/2103755997533839416.jpg" width="260" alt="Pixel art by @rehan_shei" style="max-width: 100%;"></a><br><a href="https://x.com/rehan_shei/status/2103755997533839416" rel="nofollow">@rehan_shei</a> · ❤ 339<br><a href="prompts/2103755997533839416.md">Prompt</a> (partial)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: pixel art. Render the scene at 320×180 on a fixed 16–32 colour palette and scale it up with nearest-neighbour (no smoothing, no anti-aliasing). Sprites animate in 2–4 frame cycles; parallax background layers; chiptune audio.
+</code></pre>
+</details>
+<p><a id="user-content-cartoon"></a></p>
+<h2>Flat cartoon</h2>
+<p>Flat vector characters, rubber-hose cartoons, storybook scenes.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/TaylorBereiter/status/2104045641706189192" rel="nofollow"><img src="assets/stills/2104045641706189192.jpg" width="260" alt="Flat cartoon by @TaylorBereiter" style="max-width: 100%;"></a><br><a href="https://x.com/TaylorBereiter/status/2104045641706189192" rel="nofollow">@TaylorBereiter</a> · ❤ 187<br><a href="prompts/2104045641706189192.md">Prompt</a> (partial)</td>
+<td><a href="https://x.com/Ror_Fly/status/2102853258582880547" rel="nofollow"><img src="assets/stills/2102853258582880547.jpg" width="260" alt="Flat cartoon by @Ror_Fly" style="max-width: 100%;"></a><br><a href="https://x.com/Ror_Fly/status/2102853258582880547" rel="nofollow">@Ror_Fly</a> · ❤ 1,020<br><a href="prompts/2102853258582880547.md">Prompt</a></td>
+<td><a href="https://x.com/emollick/status/2103688362960019567" rel="nofollow"><img src="assets/stills/2103688362960019567.jpg" width="260" alt="Flat cartoon by @emollick" style="max-width: 100%;"></a><br><a href="https://x.com/emollick/status/2103688362960019567" rel="nofollow">@emollick</a> · ❤ 553<br><a href="prompts/2103688362960019567.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/itsolelehmann/status/2103124033365762215" rel="nofollow"><img src="assets/stills/2103124033365762215.jpg" width="260" alt="Flat cartoon by @itsolelehmann" style="max-width: 100%;"></a><br><a href="https://x.com/itsolelehmann/status/2103124033365762215" rel="nofollow">@itsolelehmann</a> · ❤ 261<br><a href="prompts/2103124033365762215.md">Prompt</a></td>
+<td><a href="https://x.com/daniel_mac8/status/2103824976713306214" rel="nofollow"><img src="assets/stills/2103824976713306214.jpg" width="260" alt="Flat cartoon by @daniel_mac8" style="max-width: 100%;"></a><br><a href="https://x.com/daniel_mac8/status/2103824976713306214" rel="nofollow">@daniel_mac8</a> · ❤ 163<br><a href="prompts/2103824976713306214.md">Prompt</a></td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: flat 2D cartoon. Bold rounded shapes with thick dark outlines, flat fills with one shade tone, squash-and-stretch on every move, big expressive eyes. Bright, saturated palette; simple layered backgrounds.
+</code></pre>
+</details>
+<p><a id="user-content-cinematic3d"></a></p>
+<h2>Cinematic 3D</h2>
+<p>Film-grade Three.js / WebGL scenes: lighting, materials, camera moves.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/koldo2k/status/2103129343253778767" rel="nofollow"><img src="assets/stills/2103129343253778767.jpg" width="260" alt="Cinematic 3D by @koldo2k" style="max-width: 100%;"></a><br><a href="https://x.com/koldo2k/status/2103129343253778767" rel="nofollow">@koldo2k</a> · ❤ 706<br><a href="prompts/2103129343253778767.md">Prompt</a></td>
+<td><a href="https://x.com/AxtonLiu/status/2103119648271290566" rel="nofollow"><img src="assets/stills/2103119648271290566.jpg" width="260" alt="Cinematic 3D by @AxtonLiu" style="max-width: 100%;"></a><br><a href="https://x.com/AxtonLiu/status/2103119648271290566" rel="nofollow">@AxtonLiu</a> · ❤ 70<br><a href="prompts/2103119648271290566.md">Prompt</a></td>
+<td><a href="https://x.com/monokern/status/2103563538828832979" rel="nofollow"><img src="assets/stills/2103563538828832979.jpg" width="260" alt="Cinematic 3D by @monokern" style="max-width: 100%;"></a><br><a href="https://x.com/monokern/status/2103563538828832979" rel="nofollow">@monokern</a> · ❤ 55<br><a href="prompts/2103563538828832979.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/sahildesigner23/status/2103536115563307120" rel="nofollow"><img src="assets/stills/2103536115563307120.jpg" width="260" alt="Cinematic 3D by @sahildesigner23" style="max-width: 100%;"></a><br><a href="https://x.com/sahildesigner23/status/2103536115563307120" rel="nofollow">@sahildesigner23</a> · ❤ 1<br><a href="prompts/2103536115563307120.md">Prompt</a></td>
+<td><a href="https://x.com/johnsavage_ai/status/2103792769982427263" rel="nofollow"><img src="assets/stills/2103792769982427263.jpg" width="260" alt="Cinematic 3D by @johnsavage_ai" style="max-width: 100%;"></a><br><a href="https://x.com/johnsavage_ai/status/2103792769982427263" rel="nofollow">@johnsavage_ai</a><br><a href="prompts/2103792769982427263.md">Prompt</a></td>
+<td><a href="https://x.com/anas0ra/status/2103490331815952637" rel="nofollow"><img src="assets/stills/2103490331815952637.jpg" width="260" alt="Cinematic 3D by @anas0ra" style="max-width: 100%;"></a><br><a href="https://x.com/anas0ra/status/2103490331815952637" rel="nofollow">@anas0ra</a><br><a href="prompts/2103490331815952637.md">Prompt</a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: cinematic 3D in Three.js/WebGL. Physically based materials, one strong key light with soft shadows, depth of field, slow dolly or orbit camera moves, subtle film grain and colour grade. 24 fps, 2.39:1 letterbox optional.
+</code></pre>
+</details>
+<p><a id="user-content-lowpoly"></a></p>
+<h2>Low-poly &amp; voxel</h2>
+<p>Low-poly, voxel blocks, toy-like isometric scenes.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/_nieGRAMotny_/status/2103128800909197521" rel="nofollow"><img src="assets/stills/2103128800909197521.jpg" width="260" alt="Low-poly &amp; voxel by @_nieGRAMotny_" style="max-width: 100%;"></a><br><a href="https://x.com/_nieGRAMotny_/status/2103128800909197521" rel="nofollow">@<em>nieGRAMotny</em></a> · ❤ 10<br><a href="prompts/2103128800909197521.md">Prompt</a></td>
+<td><a href="https://x.com/Sudiyasa_/status/2103638831669076027" rel="nofollow"><img src="assets/stills/2103638831669076027.jpg" width="260" alt="Low-poly &amp; voxel by @Sudiyasa_" style="max-width: 100%;"></a><br><a href="https://x.com/Sudiyasa_/status/2103638831669076027" rel="nofollow">@Sudiyasa_</a> · ❤ 3<br><a href="prompts/2103638831669076027.md">Prompt</a></td>
+<td><a href="https://x.com/levabashidze/status/2103786742520184909" rel="nofollow"><img src="assets/stills/2103786742520184909.jpg" width="260" alt="Low-poly &amp; voxel by @levabashidze" style="max-width: 100%;"></a><br><a href="https://x.com/levabashidze/status/2103786742520184909" rel="nofollow">@levabashidze</a> · ❤ 2<br><a href="prompts/2103786742520184909.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/wzarok/status/2103530789510283635" rel="nofollow"><img src="assets/stills/2103530789510283635.jpg" width="260" alt="Low-poly &amp; voxel by @wzarok" style="max-width: 100%;"></a><br><a href="https://x.com/wzarok/status/2103530789510283635" rel="nofollow">@wzarok</a> · ❤ 32<br><a href="prompts/2103530789510283635.md">Prompt</a> (partial)</td>
+<td><a href="https://x.com/angie_carel/status/2103876982819954689" rel="nofollow"><img src="assets/stills/2103876982819954689.jpg" width="260" alt="Low-poly &amp; voxel by @angie_carel" style="max-width: 100%;"></a><br><a href="https://x.com/angie_carel/status/2103876982819954689" rel="nofollow">@angie_carel</a> · ❤ 3<br><a href="prompts/2103876982819954689.md">Prompt</a> (partial)</td>
+<td><a href="https://x.com/lisp_mi/status/2104046743751139812" rel="nofollow"><img src="assets/stills/2104046743751139812.jpg" width="260" alt="Low-poly &amp; voxel by @lisp_mi" style="max-width: 100%;"></a><br><a href="https://x.com/lisp_mi/status/2104046743751139812" rel="nofollow">@lisp_mi</a> · ❤ 1<br><a href="prompts/2104046743751139812.md">Prompt</a> (partial)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: low-poly / voxel. Faceted flat-shaded geometry (or cubes), isometric or high three-quarter camera, pastel palette with one saturated accent, soft ambient occlusion, objects bounce and pop in with overshoot.
+</code></pre>
+</details>
+<p><a id="user-content-generative"></a></p>
+<h2>Generative &amp; neon</h2>
+<p>Particles, shaders, geometric patterns, cyber neon.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/ishuagra02/status/2103247844542922825" rel="nofollow"><img src="assets/stills/2103247844542922825.jpg" width="260" alt="Generative &amp; neon by @ishuagra02" style="max-width: 100%;"></a><br><a href="https://x.com/ishuagra02/status/2103247844542922825" rel="nofollow">@ishuagra02</a> · ❤ 60<br><a href="prompts/2103247844542922825.md">Prompt</a></td>
+<td><a href="https://x.com/eyishazyer/status/2103816865852129686" rel="nofollow"><img src="assets/stills/2103816865852129686.jpg" width="260" alt="Generative &amp; neon by @eyishazyer" style="max-width: 100%;"></a><br><a href="https://x.com/eyishazyer/status/2103816865852129686" rel="nofollow">@eyishazyer</a> · ❤ 43<br><a href="prompts/2103816865852129686.md">Prompt</a></td>
+<td><a href="https://x.com/0xRathi/status/2102986585004511319" rel="nofollow"><img src="assets/stills/2102986585004511319.jpg" width="260" alt="Generative &amp; neon by @0xRathi" style="max-width: 100%;"></a><br><a href="https://x.com/0xRathi/status/2102986585004511319" rel="nofollow">@0xRathi</a> · ❤ 16<br><a href="prompts/2102986585004511319.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/heyiammallik/status/2103837803587293397" rel="nofollow"><img src="assets/stills/2103837803587293397.jpg" width="260" alt="Generative &amp; neon by @heyiammallik" style="max-width: 100%;"></a><br><a href="https://x.com/heyiammallik/status/2103837803587293397" rel="nofollow">@heyiammallik</a> · ❤ 3<br><a href="prompts/2103837803587293397.md">Prompt</a></td>
+<td><a href="https://x.com/itsuki_dev/status/2103438087204618392" rel="nofollow"><img src="assets/stills/2103438087204618392.jpg" width="260" alt="Generative &amp; neon by @itsuki_dev" style="max-width: 100%;"></a><br><a href="https://x.com/itsuki_dev/status/2103438087204618392" rel="nofollow">@itsuki_dev</a> · ❤ 2<br><a href="prompts/2103438087204618392.md">Prompt</a></td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: generative art. Everything is procedural: particles, flow fields, shaders or tiling geometric patterns driven by time and audio. Dark background with neon or a bold 3–4 colour palette; motion locked to the beat.
+</code></pre>
+</details>
+<p><a id="user-content-typography"></a></p>
+<h2>Kinetic typography</h2>
+<p>Big type, animated letterforms, design-poster bumpers. The most viral single-prompt category.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/stephanlivera/status/2103315922098470926" rel="nofollow"><img src="assets/stills/2103315922098470926.jpg" width="260" alt="Kinetic typography by @stephanlivera" style="max-width: 100%;"></a><br><a href="https://x.com/stephanlivera/status/2103315922098470926" rel="nofollow">@stephanlivera</a> · ❤ 16,745<br><a href="prompts/2103315922098470926.md">Prompt</a></td>
+<td><a href="https://x.com/techhalla/status/2103411244468498547" rel="nofollow"><img src="assets/stills/2103411244468498547.jpg" width="260" alt="Kinetic typography by @techhalla" style="max-width: 100%;"></a><br><a href="https://x.com/techhalla/status/2103411244468498547" rel="nofollow">@techhalla</a> · ❤ 268<br><a href="prompts/2103411244468498547.md">Prompt</a></td>
+<td><a href="https://x.com/sudo_kiran/status/2103463886372696074" rel="nofollow"><img src="assets/stills/2103463886372696074.jpg" width="260" alt="Kinetic typography by @sudo_kiran" style="max-width: 100%;"></a><br><a href="https://x.com/sudo_kiran/status/2103463886372696074" rel="nofollow">@sudo_kiran</a> · ❤ 76<br><a href="prompts/2103463886372696074.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/rendesr/status/2103395846578676116" rel="nofollow"><img src="assets/stills/2103395846578676116.jpg" width="260" alt="Kinetic typography by @rendesr" style="max-width: 100%;"></a><br><a href="https://x.com/rendesr/status/2103395846578676116" rel="nofollow">@rendesr</a> · ❤ 9<br><a href="prompts/2103395846578676116.md">Prompt</a></td>
+<td><a href="https://x.com/motiondsgnr/status/2103692944771313960" rel="nofollow"><img src="assets/stills/2103692944771313960.jpg" width="260" alt="Kinetic typography by @motiondsgnr" style="max-width: 100%;"></a><br><a href="https://x.com/motiondsgnr/status/2103692944771313960" rel="nofollow">@motiondsgnr</a> · ❤ 7<br><a href="prompts/2103692944771313960.md">Prompt</a></td>
+<td><a href="https://x.com/Web3Wesley/status/2103644329294365164" rel="nofollow"><img src="assets/stills/2103644329294365164.jpg" width="260" alt="Kinetic typography by @Web3Wesley" style="max-width: 100%;"></a><br><a href="https://x.com/Web3Wesley/status/2103644329294365164" rel="nofollow">@Web3Wesley</a> · ❤ 5<br><a href="prompts/2103644329294365164.md">Prompt</a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: kinetic typography. One or two bold typefaces, huge words that snap, stretch, mask and wipe on the beat; a strict grid; 2–3 colours with one electric accent; hard cuts every 0.5–1 s; no stock imagery.
+</code></pre>
+</details>
+<p><a id="user-content-productui"></a></p>
+<h2>Product UI promo</h2>
+<p>App and SaaS launch films: interfaces, cards, cursor demos.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/twoclipping/status/2103835273813496100" rel="nofollow"><img src="assets/stills/2103835273813496100.jpg" width="260" alt="Product UI promo by @twoclipping" style="max-width: 100%;"></a><br><a href="https://x.com/twoclipping/status/2103835273813496100" rel="nofollow">@twoclipping</a> · ❤ 2,051<br><a href="prompts/2103835273813496100.md">Prompt</a></td>
+<td><a href="https://x.com/ann_nnng/status/2103723183899852885" rel="nofollow"><img src="assets/stills/2103723183899852885.jpg" width="260" alt="Product UI promo by @ann_nnng" style="max-width: 100%;"></a><br><a href="https://x.com/ann_nnng/status/2103723183899852885" rel="nofollow">@ann_nnng</a> · ❤ 981<br><a href="prompts/2103723183899852885.md">Prompt</a></td>
+<td><a href="https://x.com/pbteja1998/status/2103176101497651644" rel="nofollow"><img src="assets/stills/2103176101497651644.jpg" width="260" alt="Product UI promo by @pbteja1998" style="max-width: 100%;"></a><br><a href="https://x.com/pbteja1998/status/2103176101497651644" rel="nofollow">@pbteja1998</a> · ❤ 286<br><a href="prompts/2103176101497651644.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/froessell/status/2103789415323562325" rel="nofollow"><img src="assets/stills/2103789415323562325.jpg" width="260" alt="Product UI promo by @froessell" style="max-width: 100%;"></a><br><a href="https://x.com/froessell/status/2103789415323562325" rel="nofollow">@froessell</a> · ❤ 222<br><a href="prompts/2103789415323562325.md">Prompt</a></td>
+<td><a href="https://x.com/gouthamjay8/status/2103816261339910269" rel="nofollow"><img src="assets/stills/2103816261339910269.jpg" width="260" alt="Product UI promo by @gouthamjay8" style="max-width: 100%;"></a><br><a href="https://x.com/gouthamjay8/status/2103816261339910269" rel="nofollow">@gouthamjay8</a> · ❤ 81<br><a href="prompts/2103816261339910269.md">Prompt</a></td>
+<td><a href="https://x.com/MustaphaFenzar/status/2103708363074973906" rel="nofollow"><img src="assets/stills/2103708363074973906.jpg" width="260" alt="Product UI promo by @MustaphaFenzar" style="max-width: 100%;"></a><br><a href="https://x.com/MustaphaFenzar/status/2103708363074973906" rel="nofollow">@MustaphaFenzar</a> · ❤ 34<br><a href="prompts/2103708363074973906.md">Prompt</a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: product launch film. Recreate the product's real UI states as crisp vector screens, a moving cursor that clicks through one flow, smooth spring easing, soft shadows on a light background, a single headline per beat, logo lockup at the end.
+</code></pre>
+</details>
+<p><a id="user-content-retro"></a></p>
+<h2>Retro, terminal &amp; old film</h2>
+<p>Old photographs and newsreel, ASCII, oscilloscopes, CRT terminals.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/alexalbert__/status/2102466523164274839" rel="nofollow"><img src="assets/stills/2102466523164274839.jpg" width="260" alt="Retro, terminal &amp; old film by @alexalbert__" style="max-width: 100%;"></a><br><a href="https://x.com/alexalbert__/status/2102466523164274839" rel="nofollow">@alexalbert__</a> · ❤ 1,130<br><a href="prompts/2102466523164274839.md">Prompt</a></td>
+<td><a href="https://x.com/Rames_Jusso/status/2103200703598776559" rel="nofollow"><img src="assets/stills/2103200703598776559.jpg" width="260" alt="Retro, terminal &amp; old film by @Rames_Jusso" style="max-width: 100%;"></a><br><a href="https://x.com/Rames_Jusso/status/2103200703598776559" rel="nofollow">@Rames_Jusso</a> · ❤ 7<br><a href="prompts/2103200703598776559.md">Prompt</a></td>
+<td><a href="https://x.com/rneayan/status/2103401461837406275" rel="nofollow"><img src="assets/stills/2103401461837406275.jpg" width="260" alt="Retro, terminal &amp; old film by @rneayan" style="max-width: 100%;"></a><br><a href="https://x.com/rneayan/status/2103401461837406275" rel="nofollow">@rneayan</a><br><a href="prompts/2103401461837406275.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/ParkerRex/status/2103206747846701462" rel="nofollow"><img src="assets/stills/2103206747846701462.jpg" width="260" alt="Retro, terminal &amp; old film by @ParkerRex" style="max-width: 100%;"></a><br><a href="https://x.com/ParkerRex/status/2103206747846701462" rel="nofollow">@ParkerRex</a><br><a href="prompts/2103206747846701462.md">Prompt</a></td>
+<td><a href="https://x.com/SuryaRajendhran/status/2103122292343730437" rel="nofollow"><img src="assets/stills/2103122292343730437.jpg" width="260" alt="Retro, terminal &amp; old film by @SuryaRajendhran" style="max-width: 100%;"></a><br><a href="https://x.com/SuryaRajendhran/status/2103122292343730437" rel="nofollow">@SuryaRajendhran</a> · ❤ 1<br><a href="prompts/2103122292343730437.md">Prompt</a></td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: retro. Either monochrome film (grain, gate weave, flicker, vignette, 18 fps) or a CRT terminal (green or amber phosphor, scanlines, ASCII art, type-on text with a blinking cursor). No modern gradients.
+</code></pre>
+</details>
+<p><a id="user-content-explainer"></a></p>
+<h2>Explainers &amp; data viz</h2>
+<p>Charts, formulas, maps, timelines: making one idea clear.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/himanshutwtxs/status/2103495232637882858" rel="nofollow"><img src="assets/stills/2103495232637882858.jpg" width="260" alt="Explainers &amp; data viz by @himanshutwtxs" style="max-width: 100%;"></a><br><a href="https://x.com/himanshutwtxs/status/2103495232637882858" rel="nofollow">@himanshutwtxs</a> · ❤ 1,448<br><a href="prompts/2103495232637882858.md">Prompt</a></td>
+<td><a href="https://x.com/mattiapomelli/status/2103757371357229129" rel="nofollow"><img src="assets/stills/2103757371357229129.jpg" width="260" alt="Explainers &amp; data viz by @mattiapomelli" style="max-width: 100%;"></a><br><a href="https://x.com/mattiapomelli/status/2103757371357229129" rel="nofollow">@mattiapomelli</a> · ❤ 245<br><a href="prompts/2103757371357229129.md">Prompt</a></td>
+<td><a href="https://x.com/verbove/status/2103483957266268381" rel="nofollow"><img src="assets/stills/2103483957266268381.jpg" width="260" alt="Explainers &amp; data viz by @verbove" style="max-width: 100%;"></a><br><a href="https://x.com/verbove/status/2103483957266268381" rel="nofollow">@verbove</a> · ❤ 215<br><a href="prompts/2103483957266268381.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/kloss_xyz/status/2103652674336067876" rel="nofollow"><img src="assets/stills/2103652674336067876.jpg" width="260" alt="Explainers &amp; data viz by @kloss_xyz" style="max-width: 100%;"></a><br><a href="https://x.com/kloss_xyz/status/2103652674336067876" rel="nofollow">@kloss_xyz</a> · ❤ 189<br><a href="prompts/2103652674336067876.md">Prompt</a></td>
+<td><a href="https://x.com/dale_vaz/status/2103290592679879074" rel="nofollow"><img src="assets/stills/2103290592679879074.jpg" width="260" alt="Explainers &amp; data viz by @dale_vaz" style="max-width: 100%;"></a><br><a href="https://x.com/dale_vaz/status/2103290592679879074" rel="nofollow">@dale_vaz</a> · ❤ 24<br><a href="prompts/2103290592679879074.md">Prompt</a></td>
+<td><a href="https://x.com/AstroTheWizard/status/2103629247751618782" rel="nofollow"><img src="assets/stills/2103629247751618782.jpg" width="260" alt="Explainers &amp; data viz by @AstroTheWizard" style="max-width: 100%;"></a><br><a href="https://x.com/AstroTheWizard/status/2103629247751618782" rel="nofollow">@AstroTheWizard</a> · ❤ 16<br><a href="prompts/2103629247751618782.md">Prompt</a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: explainer. One idea per scene, built step by step: axes draw on, values count up, arrows point, labels fade in next to what they name. Clean off-white or dark background, one highlight colour for the thing that matters.
+</code></pre>
+</details>
+<p><a id="user-content-photoreal"></a></p>
+<h2>Photoreal &amp; live action</h2>
+<p>Real footage or photoreal renders, cut and composed in code into MVs, ads and documentaries.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://x.com/anabology/status/2103534482930491441" rel="nofollow"><img src="assets/stills/2103534482930491441.jpg" width="260" alt="Photoreal &amp; live action by @anabology" style="max-width: 100%;"></a><br><a href="https://x.com/anabology/status/2103534482930491441" rel="nofollow">@anabology</a> · ❤ 13,696<br><a href="prompts/2103534482930491441.md">Prompt</a></td>
+<td><a href="https://x.com/twoclipping/status/2102554209166000267" rel="nofollow"><img src="assets/stills/2102554209166000267.jpg" width="260" alt="Photoreal &amp; live action by @twoclipping" style="max-width: 100%;"></a><br><a href="https://x.com/twoclipping/status/2102554209166000267" rel="nofollow">@twoclipping</a> · ❤ 606<br><a href="prompts/2102554209166000267.md">Prompt</a></td>
+<td><a href="https://x.com/andginja/status/2103492000733618685" rel="nofollow"><img src="assets/stills/2103492000733618685.jpg" width="260" alt="Photoreal &amp; live action by @andginja" style="max-width: 100%;"></a><br><a href="https://x.com/andginja/status/2103492000733618685" rel="nofollow">@andginja</a> · ❤ 3<br><a href="prompts/2103492000733618685.md">Prompt</a></td>
+</tr>
+<tr>
+<td><a href="https://x.com/DemitiyaGeekzen/status/2103517910274818523" rel="nofollow"><img src="assets/stills/2103517910274818523.jpg" width="260" alt="Photoreal &amp; live action by @DemitiyaGeekzen" style="max-width: 100%;"></a><br><a href="https://x.com/DemitiyaGeekzen/status/2103517910274818523" rel="nofollow">@DemitiyaGeekzen</a> · ❤ 1<br><a href="prompts/2103517910274818523.md">Prompt</a> (partial)</td>
+<td><a href="https://x.com/truenyl/status/2103086316137447745" rel="nofollow"><img src="assets/stills/2103086316137447745.jpg" width="260" alt="Photoreal &amp; live action by @truenyl" style="max-width: 100%;"></a><br><a href="https://x.com/truenyl/status/2103086316137447745" rel="nofollow">@truenyl</a><br><a href="prompts/2103086316137447745.md">Prompt</a> (partial)</td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<details><summary>Style recipe (paste after your prompt)</summary>
+<pre lang="text" class="notranslate"><code class="notranslate">Style: photoreal edit. Use the supplied real footage or photos (or call a video model for new shots), cut on the beat, add restrained typography, colour-match every shot to one grade, and keep motion graphics minimal.
+</code></pre>
+</details>
+<h2>How cases are chosen</h2>
+<ul>
+<li>Source: videos posted on X after Opus 5.5 launched (from 2026-09-22) whose creators shared their prompts. The candidate list comes from the open dataset <a href="https://github.com/yihui-dev/awesome-opus5-5-videos">yihui-dev/awesome-opus5-5-videos</a> (MIT), with thanks.</li>
+<li>Styles were assigned by looking at the frames. One case per creator per style, preferring the clearest example of the style and complete prompts.</li>
+<li>Like counts were read on 2026-09-29 and are a rough signal only.</li>
+<li>The style recipes are our own starter prompts, not the creators' words.</li>
+</ul>
+<h2>Credits &amp; rights</h2>
+<p>Every video, still and prompt belongs to its creator and links to the original post. Stills are single frames from the original video, shown only to help choose a style. Creators can ask for a change or removal by opening an issue. This repository's own text, classification and recipes are licensed <a href="LICENSE">CC BY 4.0</a>.</p>
