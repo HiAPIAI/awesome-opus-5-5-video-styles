@@ -18,7 +18,7 @@ Opus 5.5 doesn't output video: it writes code that draws every frame, then rende
 
 1. Pick a style below and open it.
 2. Copy an example prompt and change the subject, or paste the style recipe after your own prompt. Every code block has a copy button.
-3. Run it with Opus 5.5 in Claude Code. One [HiAPI](https://www.hiapi.ai/en) key is enough:
+3. Run it with Opus 5.5 in Claude Code. One [HiAPI](https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus-5-5-video-styles) key is enough:
 
 ```bash
 export ANTHROPIC_BASE_URL=https://api.hiapi.ai
@@ -28,7 +28,7 @@ claude --model claude-opus-5-5
 
 <div align="center">
 
-<b>Curated by <a href="https://www.hiapi.ai/en">HiAPI</a> · One API, all AI models</b><br>Want an original song? Try the <a href="https://github.com/HiAPIAI/hiapi-hand-painted-animation-skill">hand-painted animation skill</a>: lyrics, song, beat timing and frame-by-frame painting in one install.
+<b>Curated by <a href="https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus-5-5-video-styles">HiAPI</a> · One API, all AI models</b><br>Want an original song? Try the <a href="https://github.com/HiAPIAI/hiapi-hand-painted-animation-skill">hand-painted animation skill</a>: lyrics, song, beat timing and frame-by-frame painting in one install.
 
 </div>
 
