@@ -18,7 +18,7 @@ Opus 5.5 不直接生成视频，它写代码画出每一帧，再渲染成 MP4�
 
 1. 在下面挑一种画风，点进去看案例。
 2. 复制案例的提示词改成你的主题，或者把「风格配方」贴在你自己的提示词后面。代码框右上角可一键复制。
-3. 在 Claude Code 里用 Opus 5.5 运行。一个 [HiAPI](https://www.hiapi.ai/zh) Key 就够：
+3. 在 Claude Code 里用 Opus 5.5 运行。一个 [HiAPI](https://www.hiapi.ai/zh?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus-5-5-video-styles) Key 就够：
 
 ```bash
 export ANTHROPIC_BASE_URL=https://api.hiapi.ai
@@ -28,7 +28,7 @@ claude --model claude-opus-5-5
 
 <div align="center">
 
-<b>由 <a href="https://www.hiapi.ai/zh">HiAPI</a> 整理 · 一个 API，所有 AI 模型</b><br>想配一首原创歌？试试 <a href="https://github.com/HiAPIAI/hiapi-hand-painted-animation-skill">手绘动画技能</a>：写词、作曲、卡节拍、逐帧手绘，一条命令装好。
+<b>由 <a href="https://www.hiapi.ai/zh?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus-5-5-video-styles">HiAPI</a> 整理 · 一个 API，所有 AI 模型</b><br>想配一首原创歌？试试 <a href="https://github.com/HiAPIAI/hiapi-hand-painted-animation-skill">手绘动画技能</a>：写词、作曲、卡节拍、逐帧手绘，一条命令装好。
 
 </div>
 
